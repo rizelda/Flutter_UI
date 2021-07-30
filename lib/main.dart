@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
           width: 100.0,
           height: 100.0,
           decoration: BoxDecoration(
-              image: DecorationImage(image: AssetImage("assets/zeldaa.jpeg"),
+              image: DecorationImage(image: AssetImage("assets/images/zeldaa.jpeg"),
                 fit: BoxFit.cover,
               ),
               borderRadius: BorderRadius.circular(20.0)
@@ -146,7 +146,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Row(
                 children: <Widget>[
                   CircleAvatar(
-                    backgroundImage: AssetImage("assets/zelda(1).jpeg"),
+                    backgroundImage: AssetImage("assets/images/zelda (1).jpeg"),
                   ),
                   SizedBox(width: 10.0),
                   Text("Hi, Zelda!!",style: TextStyle(color: Colors.white),
